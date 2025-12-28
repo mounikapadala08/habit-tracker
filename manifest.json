@@ -1,0 +1,20 @@
+{
+  "name": "Habit Tracker",
+  "short_name": "Habits",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#0f0f0f",
+  "theme_color": "#0f0f0f",
+  "icons": [
+    {
+      "src": "https://play-lh.googleusercontent.com/Lhxa_-3nSKhSsLzxlC3Dqi_8QxAGnj8kdVsZ1ei_1Z36NlGtljduKTEXCpRHxzOq7g",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://play-lh.googleusercontent.com/Lhxa_-3nSKhSsLzxlC3Dqi_8QxAGnj8kdVsZ1ei_1Z36NlGtljduKTEXCpRHxzOq7g",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

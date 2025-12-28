@@ -1,0 +1,112 @@
+body {
+  background: #0f0f0f;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 15px;
+  max-width: 430px;
+  margin: auto;
+}
+
+/* TOP */
+.top-bar {
+  margin-bottom: 10px;
+}
+.today {
+  font-size: 14px;
+  color: #aaa;
+}
+.date {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* WEEK */
+.week {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+.week div {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #1e1e1e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #bbb;
+}
+
+/* HABIT CARD */
+.habit {
+  background: #161616;
+  border-radius: 16px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.habit-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.habit-title {
+  font-size: 16px;
+}
+
+.streak {
+  font-size: 13px;
+  color: #aaa;
+}
+
+/* TICK */
+.tick-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: none;
+  color: black;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Tick button color per habit */
+.yellow .tick-btn { background: #f5c400; }
+.green  .tick-btn { background: #3ddc84; }
+.red    .tick-btn { background: #ff5c5c; }
+.blue   .tick-btn { background: #4da3ff; }
+.purple .tick-btn { background: #b47cff; }
+.cyan   .tick-btn { background: #4dd6d6; }
+
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  gap: 4px;
+  margin-top: 12px;
+}
+
+.cell {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  background: #2b2b2b;
+}
+
+.cell.done {
+  background: #f5c400;
+}
+/* Habit colors */
+.yellow .cell.done { background: #f5c400; }
+.green  .cell.done { background: #3ddc84; }
+.red    .cell.done { background: #ff5c5c; }
+.blue   .cell.done { background: #4da3ff; }
+.purple .cell.done { background: #b47cff; }
+.cyan   .cell.done { background: #4dd6d6; }
+.today-circle {
+  border: 2px solid #f5c400;
+  color: #f5c400;
+}
